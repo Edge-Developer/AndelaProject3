@@ -42,5 +42,6 @@ public class DevDetailFragment extends Fragment {
         networkImageView.setImageUrl(developer.getImage(), ConnectionManager.getImageLoader(getContext()));
         devDetailBinding.setDev(developer);
         return devDetailBinding.getRoot();
+
     }
 }

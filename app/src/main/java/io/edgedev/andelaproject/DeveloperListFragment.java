@@ -107,7 +107,6 @@ public class DeveloperListFragment extends Fragment implements SearchView.OnQuer
     }
 
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_developer_list, container, false);
