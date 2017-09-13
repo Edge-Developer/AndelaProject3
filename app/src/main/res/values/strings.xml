@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Andela Project</string>
+    <string name="username">/@EdgeDeveloper</string>
+    <string name="radom_double">2.34</string>
+    <string name="github_score">Github Score</string>
+    <string name="username_txt_view">Username</string>
+    <string name="github_profile_link">github.com/edge-developer</string>
+    <string name="dev_detail">Developer Detail</string>
+    <string name="java_devs_lagos">Java Devs - Lagos</string>
+    <string name="java_devs_lag">Java Developers In Lagos</string>
+    <string name="network_error">Network Error, You Should Retry!</string>
+    <string name="retry">Retry</string>
+    <string name="search">Search</string>
+    <string name="implement_later">I\'ll Implement this Feature on Request</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/retry"
+        android:title="@string/retry"/>
+
+    <item
+        android:id="@+id/search_dev"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="always|collapseActionView"
+        myapp:actionViewClass="android.support.v7.widget.SearchView"/>
+</menu>
