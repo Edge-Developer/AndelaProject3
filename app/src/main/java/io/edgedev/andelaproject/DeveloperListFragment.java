@@ -30,13 +30,13 @@ import com.google.gson.Gson;
 
 import java.util.ArrayList;
 import java.util.List;
-import io.edgedev.andelaproject.databinding.SingleDevBinding;
 
+import io.edgedev.andelaproject.databinding.SingleDevBinding;
 
 
 public class DeveloperListFragment extends Fragment implements SearchView.OnQueryTextListener {
     private static final String TAG = "DeveloperListFragment";
-    private final String LagosJavaDevURL = "https://api.github.com/search/users?q=location:lagos+language:java&page=1";
+    private final String LagosJavaDevURL = "https://api.github.com/search/users?q=location:Lagos+language:java&page=1";
     private RecyclerViewAdapter mAdapter;
     private DeveloperClick mDeveloperClick;
     private View mView;
@@ -118,11 +118,11 @@ public class DeveloperListFragment extends Fragment implements SearchView.OnQuer
         }
         mAdapter = new RecyclerViewAdapter();
         mRecyclerView.setAdapter(mAdapter);
-        if (!(Singleton.newInstance().size() == 0)) {
+        if (!(Singleton.newInstance().size() == 0))
             mAdapter.setDevelopers(Singleton.newInstance().getDevelopers());
-        } else {
+        else
             download_profiles(LagosJavaDevURL, view);
-        }
+
 
         mView = view;
         return view;
@@ -209,6 +209,7 @@ public class DeveloperListFragment extends Fragment implements SearchView.OnQuer
             notifyDataSetChanged();
         }
     }
+
     private class DeveloperHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private Developer mDeveloper;
         private SingleDevBinding mBinding;
