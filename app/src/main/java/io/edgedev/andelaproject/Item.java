@@ -1,11 +1,12 @@
 package io.edgedev.andelaproject;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by OPEYEMI OLORUNLEKE on 9/13/2017.
  */
 
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
 
 public class Item {
 
